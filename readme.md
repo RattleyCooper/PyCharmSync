@@ -52,3 +52,7 @@ from PyCharmSync import ProjectSync
 ProjectSync.main('/home/user/project_name')
 ```
  
+ ## Install
+ 
+ `pip install PyCharmSync`
+ 
