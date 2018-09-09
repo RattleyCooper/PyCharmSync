@@ -4,6 +4,9 @@ import subprocess
 from configparser import ConfigParser
 
 
+name = 'PyCharmSync'
+
+
 class ProjectSync(object):
     ignore = ['.DS_Store', '.git', '__pycache__', '.idea']
     database = {}
