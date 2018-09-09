@@ -25,7 +25,7 @@ class ProjectSync(object):
         if not cls.config:
             cls._bootstrap_config(os.getcwd())
 
-        # print('Syncing', filepath)
+        print('Syncing', filepath)
         remote_location = '{}@{}:{}'.format(
             cls.config['SSH']['USER'],
             cls.config['SSH']['HOST'],

@@ -5,7 +5,7 @@ with open("readme.md", "r") as fh:
 
 setuptools.setup(
     name="PyCharmSync",
-    version="0.0.1",
+    version="0.0.2",
     author="py-am-i",
     author_email="duckpuncherirl@gmail.com",
     description="PyCharmSync is a simple tool for uploading changed project files to a remote host, about as soon as they change.",
