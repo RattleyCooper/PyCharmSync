@@ -1,6 +1,7 @@
 # PyCharmSync
 
-A simple tool for uploading changed poject files automatically.  
+A simple tool for uploading changed project files to a remote host,
+ automatically.
 
 Paid versions of PyCharm can be set up to upload project files
 as you change them locally. `PyCharmSync` aims to do just that 
