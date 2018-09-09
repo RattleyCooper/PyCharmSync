@@ -2,10 +2,6 @@
 
 A simple tool for uploading changed project files to a remote host,
  automatically.
- 
-## Install
- 
-`pip install PyCharmSync`
 
 Paid versions of PyCharm can be set up to upload project files
 as you change them locally. `PyCharmSync` aims to do just that 
@@ -15,6 +11,10 @@ using the `sshpass` and the `scp` command on Unix based machines.
 the directory and then upload the changed versions automatically
 based on settings set in an `.env` file in your root project 
 directory.
+
+## Install
+ 
+`pip install PyCharmSync`
 
 ### `.env` Example
 
