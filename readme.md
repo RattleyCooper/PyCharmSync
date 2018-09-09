@@ -47,6 +47,21 @@ from PyCharmSync import ProjectSync
 ProjectSync.main()
 ```
 
+If you need to use a custom config file:
+
+```python
+from PyCharmSync import ProjectSync
+from configparser import ConfigParser
+
+path_to_custom_config_file = '.remote'
+
+config = ConfigParser()
+config.read(path_to_custom_config_file)
+
+ProjectSync.config = config
+ProjectSync.main()
+```
+
 If you are not running the `main` method from your project's root 
 directory you need to pass a `cwd` to the `main` method.
 
